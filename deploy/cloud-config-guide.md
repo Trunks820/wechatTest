@@ -40,7 +40,7 @@ PORT=1238
 # 【重要】安全配置 - 请务必修改！
 # ==========================================
 # 管理员密钥（请修改为复杂的随机字符串，至少16位）
-ADMIN_KEY=YOUR_SECURE_ADMIN_KEY_HERE_$(date +%s)
+ADMIN_KEY=Trunks820_WeChatPadPro_2024
 
 # API版本前缀（如 /v1, /v2）
 API_VERSION
@@ -126,8 +126,8 @@ KAFKA_PASSWORD=
 # 当前配置（不安全）
 ADMIN_KEY=999222
 
-# 建议修改为（请生成随机字符串）
-ADMIN_KEY=A7x9B2m8E5q3F6n1K4p7L9r2S8w5T1u6
+# 建议修改为
+ADMIN_KEY=Trunks820_WeChatPadPro_2024
 ```
 
 #### 🔗 Web域名配置
@@ -190,7 +190,7 @@ free -h
 
 ```bash
 # 1. 进入部署目录
-cd WeChatPadPro/deploy
+cd wechatTest/deploy
 
 # 2. 停止现有服务（如果有）
 docker-compose down
@@ -227,5 +227,5 @@ docker-compose logs -f
 
 ### 联系支持
 如果遇到问题，可以通过以下方式获取支持：
-- GitHub Issues: https://github.com/WeChatPadPro/WeChatPadPro/issues
+- GitHub Issues: https://github.com/Trunks820/wechatTest/issues
 - Telegram群组: https://t.me/+LK0JuqLxjmk0ZjRh 

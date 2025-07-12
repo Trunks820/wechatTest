@@ -9,7 +9,7 @@ echo "=================================="
 # 配置变量
 SERVER_IP="47.106.217.116"
 SERVER_USER="root"
-PROJECT_NAME="WeChatPadPro"
+PROJECT_NAME="wechatTest"
 DEPLOY_PATH="/opt/wechatpadpro"
 
 echo "📋 部署信息："
@@ -52,7 +52,7 @@ echo "🔧 在服务器上执行部署..."
 ssh $SERVER_USER@$SERVER_IP << 'EOF'
 # 设置变量
 DEPLOY_PATH="/opt/wechatpadpro"
-PROJECT_NAME="WeChatPadPro"
+PROJECT_NAME="wechatTest"
 
 echo "🔧 服务器端部署开始..."
 

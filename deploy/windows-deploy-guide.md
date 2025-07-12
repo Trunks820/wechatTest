@@ -26,7 +26,7 @@ copy deploy\* deploy-package\
 
 # 修改 deploy-package\.env 文件
 # 添加必要配置：
-# ADMIN_KEY=你的复杂密钥
+# ADMIN_KEY=Trunks820_WeChatPadPro_2024
 # WEB_DOMAIN=47.106.217.116:1238
 # TZ=Asia/Shanghai
 ```
@@ -65,13 +65,13 @@ docker-compose logs -f
 ssh root@47.106.217.116
 
 # 2. 克隆项目
-git clone https://github.com/WeChatPadPro/WeChatPadPro.git
-cd WeChatPadPro/deploy
+git clone https://github.com/Trunks820/wechatTest.git
+cd wechatTest/deploy
 
 # 3. 修改配置文件
 vi .env
 # 添加以下配置：
-# ADMIN_KEY=你的复杂密钥
+# ADMIN_KEY=Trunks820_WeChatPadPro_2024
 # WEB_DOMAIN=47.106.217.116:1238
 # TZ=Asia/Shanghai
 
@@ -197,5 +197,4 @@ docker-compose logs -f --tail=100
 ## 📞 技术支持
 
 如果在部署过程中遇到问题：
-- GitHub Issues: https://github.com/WeChatPadPro/WeChatPadPro/issues
-- Telegram群组: https://t.me/+LK0JuqLxjmk0ZjRh 
+- GitHub Issues: https://github.com/Trunks820/wechatTest/issues
